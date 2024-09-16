@@ -1,8 +1,9 @@
 # MACE_optimize_md
-code to run optimize materials and run molecular dynamics (md) simulations using CHGNet and MACE (i.e., machine learning potentials (MLP)) tools
+code to run optimize materials and run molecular dynamics (md) simulations using and MACE or CHGNet (i.e., machine learning potentials (MLP)) tools. The code was originally designed for MACE runs but now it adopts CHGNet as well.
 
 ## Usage
-you only have to run the script <code>mace_optimize_md_run.py</code>. The other script <code>mace_optimize_md_classes.py</code> is only for inheriting classes and functions. \
+you only have to run the script <code>mace_optimize_md_run.py</code>. The other script <code>mace_optimize_md_classes.py</code> is only for inheriting classes and functions. Lots of examples and more details are available in the <code>mace_optimize_md_run.py</code> script. For example, you can optimize, run various md simulations on the optimized atoms or run a new md simulation based on the last step from the previous md simulation.
+</br>
 **Note:** you have to put both files "*mace_optimize_md_classes.py*" and "*mace_optimize_md_run.py*" in the same path since "*mace_optimize_md_run.py*" inherits classes from "*mace_optimize_md_classes.py*". The code will output the above files in the same path where you put "*mace_optimize_md_classes.py*" and "*mace_optimize_md_run.py*".
 
 
