@@ -6,18 +6,18 @@ code to run optimize materials and run molecular dynamics (md) simulations using
 
 
 ## the steps to run the code are as follows:
-1- get structure format in ASE format
-2- class initialization
-**Note**: The above two steps are a **"must"** at all times. However, the steps below are optional in no particular order
-3- optimization
-4- md NVE 
-5- md NVT Langevin
-6- md NVT Andersen
-7- md NVT Berendsen
-8- md inhomogeneous NPT Berendsen
-9- md NPT Berendsen
-10- md NPT combined Noose-Hoover and Parrinello-Rahman dynamics with upper-triangular cell
-11- bulk modulus calculations (bulk modulus calculations are done automatically if bulk modulus is not provided in NPT simulations)
+1- get structure format in ASE format \
+2- class initialization \
+**Note**: The above two steps are a **"must"** at all times. However, the steps below are optional in no particular order \
+3- optimization \
+4- md NVE  \
+5- md NVT Langevin \
+6- md NVT Andersen \
+7- md NVT Berendsen \
+8- md inhomogeneous NPT Berendsen \
+9- md NPT Berendsen \
+10- md NPT combined Noose-Hoover and Parrinello-Rahman dynamics with upper-triangular cell \
+11- bulk modulus calculations (bulk modulus calculations are done automatically if bulk modulus is not provided in NPT simulations) \
 
 
 
