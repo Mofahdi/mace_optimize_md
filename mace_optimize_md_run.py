@@ -1,4 +1,4 @@
-from mace_optimize_md import *
+from mace_optimize_md_classes import *
 from ase.io import read
 
 # the steps to run the code are as follows:
